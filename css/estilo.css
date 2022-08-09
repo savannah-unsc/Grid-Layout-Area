@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+}
+.tabela{
+height: 100vh;
+width: 100vw;
+display: grid;
+grid-template-areas: "d1 d2 d3" "d4 d5 d6" "d7 d8 d9";
+}
+
+#d1{
+grid-area: d1;
+background-color: #C0392B;
+}
+#d2{
+grid-area: d2;
+background-color: #16A085;
+}
+#d3{
+grid-area: d3;
+background-color: #E67E22;
+}
+#d4{
+grid-area: d4;
+background-color: #F4D03F;
+}
+#d5{
+grid-area: d5;
+background-color: #3498DB;
+}
+#d6{
+grid-area: d6;
+background-color: #8E44AD;
+}
+#d7{
+grid-area: d7;
+background-color: #F5B7B1;
+}
+#d8{
+grid-area: d8;
+background-color: #00ffff;
+}
+#d9{
+grid-area: d9;
+background-color: #2E4053;
+}
